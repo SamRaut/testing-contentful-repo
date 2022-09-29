@@ -12,3 +12,5 @@ function BlockQuote() {
     </figure>
   );
 }
+
+export default BlockQuote;
