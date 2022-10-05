@@ -1,13 +1,19 @@
 import React from "react";
+import './blockquote.css';
 
-function BlockQuote() {
+function BlockQuote({quote, quoteCite}) {
+  const { blockQuoteBody } = quote;
+  const { blockQuoteCiteText } = quoteCite;
+    
   return (
     <figure>
       <blockquote>
-          <p></p>
+        { quote }
       </blockquote>
       <figcaption>
-        <cite></cite>
+        <cite>
+          { quoteCite }
+        </cite>
       </figcaption>
     </figure>
   );

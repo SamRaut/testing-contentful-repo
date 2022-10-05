@@ -1,0 +1,15 @@
+blockquote::before {
+  content: '"';
+}
+
+blockquote::after {
+  content: '"';
+}
+
+cite {
+  font-style: normal;
+}
+
+cite::before {
+  content: '~';
+}
